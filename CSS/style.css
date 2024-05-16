@@ -247,13 +247,13 @@
   padding: 15px;
 }
 
-.container-tabelas-de-planos tr:nth-last-of-type(odd){
-  background-color: #f6f6f6;
+.container-tabelas-de-planos tbody tr:nth-last-of-type(odd){
+  background-color: #e7f3f1;
 }
 
 
-.container-tabelas-de-planos tr:nth-last-of-type(even){
-  background-color: #f1f3f7;
+.container-tabelas-de-planos tbody tr:nth-last-of-type(even){
+  background-color: #c7e3de;
 }
 
 .container-anuncio2{
