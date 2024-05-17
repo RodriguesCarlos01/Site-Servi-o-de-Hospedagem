@@ -85,6 +85,17 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  position: relative;
+}
+
+.botao-topo-preco{
+  position: fixed;
+  right: 30px;
+  bottom: 20px;
+}
+
+.botao-topo-preco img{
+  width: 50px;
 }
 
 .subcontainer-banner-text{
@@ -301,16 +312,16 @@
   align-items: center;
   justify-content: space-between;
   margin: 60px auto;
- }
+}
 
- .subcontainer-rodape-contato p{
+.subcontainer-rodape-contato p{
   font-size: 16px;
   font-weight: 600;
   margin: 20px;
   text-align: center;
- }
+}
 
- .rodape-creditos{
+.rodape-creditos{
   font-size: 16px;
   font-weight: 700;
   width: 100%;
@@ -320,8 +331,9 @@
   background-color: var(--paragrafos-cards);
   text-align: center;
   
- }
+}
 
  .rodape-creditos span{
   color: #2f86d6;
- }
+  text-transform: uppercase;
+}
